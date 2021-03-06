@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CV project</title>
+    
+     <style>
+      body {background-color: white;}
+      h1   {color: black;
+            font-style: italic;}
+      h3   {text-decoration: underline;
+           }
+      p    {color: black;
+            background-color:grey;
+            border-left: 10px solid burlywood;
+            border-radius: 8px;
+            padding: 5px;}
+
+      ul   {background-color: white;
+            border-radius: 8px;
+            padding: -5px;
+            margin: 0;}
+
+      a:link {color: MediumSeaGreen;
+              background-color: transparent;
+              text-decoration: none;}
+
+      a:hover {color: #aaa;
+              background-color: transparent;
+              text-decoration: underline;
+              font-style: italic;
+              }
+      
+      .column {
+            float: left;
+            width: 40%;
+            padding: 10px;
+            height: 180px;
+            margin: 10px;
+            }
+            .column p {
+              color: black;
+            }
+      .row:after {
+            content: "";
+            display: table;
+            clear: both;}
+      @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;}
+      }
+
+      table {
+            width: 100%;
+            }
+      #jobs th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: grey;
+            color: black;
+          }
+      #jobs tr:hover {background-color: #aaa;}
+      #jobs td {
+            text-align: center;
+            padding: 5px;
+          }
+
+      #education th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: grey;
+            color: black;
+          }
+      #education td {
+            text-align: center;
+            padding: 5px;
+          }
+      #education tr:hover {background-color: #aaa;}
+
+      footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            border-radius: 8px;
+          }
+
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Brayden Gates</h1>
+    <h2 style="text-align:center;"><small>Traverse City, Michigan, (231)409-6578, bmggates@charter.net</h2>
+    <hr>
+    <h3>Professional summary</h3>
+    <p>Outgoing individual who goes beyond basic tasks and takes on multiple projects at once, when needed to make sure the task gets done.  I feel I have an excellent work ethic and strength in boosting company morale</p>
+    <br>
+    <h3>Work history</h3>
+    <table id="jobs">
+      <tr>
+        <th>Ocupation</th>
+        <th>Date</th> 
+        <th>Workplace</th>
+        <th>Job description</th>
+      </tr>
+      <tr>
+        <td><b>Tasting Room Assistant</b></td>
+        <td>5/2019 - Ongoing/Seasonal</td> 
+        <td><b>Chateau Grand Traverse</b> - Traverse City, Michigan</td>
+        <td>Give tours of the history, production and facilities at the winery. Serve and help customers find and purchase the best wine possible. </td>
+      </tr>
+      <tr>
+        <td><b>Lift and Tube run Operator</b></td>
+        <td>12/2017 - 1/2018 12/2018 - 1/2019</td> 
+        <td><b>Mt. Holiday Ski Lodge </b> - Traverse City, Michigan</td>
+        <td>Watched multiple guests to ensure safety and quality of their experience. Made sure to give excellent customer service. </td>
+      </tr>
+      <tr>
+        <td><b>Daycare Assistant</b></td>
+        <td>5/2016 - 8/2016 5/2017 - 8/2017</td>
+        <td><b>Alphabet Soup Daycaare and Preschool<b> - Traverse City, Michigan</td> 
+        <td>Lead teacher for the Kids club program (summer program). Helped with curriculm, making sure it was interactive and age appropriate.
+            Took students on field trips and made sure they were safe and entertained. Gave parents reports at the end of day on students behavoir and daily activies.
+        </td>
+      </tr>
+    </table>
+    <br>
+    
+    <h3>Education</h3>
+    <table id="education">
+      <tr>
+        <th>Degree</th>
+        <th>University</th>
+      </tr>
+      <tr>
+        <td><b>GED</b> High School Graduate</td>
+        <td><b>Traverse City Central High School</b> - 2016 Traverse City, Michigan</td>
+      </tr>
+      <tr>
+          <td><b>Foreign Language Minor</b> in French Studies</td>
+          <td><b>Ball State University</b> - 2019 Muncie, Indiana</td>
+      </tr>
+      <tr>
+        <td><b>Bachelor of Science</b> in Computer Science</td>
+        <td><b>Ball State University</b> - 2021 Munice, Indiana</td>
+      </tr>
+    </table>
+    <br>
+    <h3>Skills</h3>
+    <p style="margin: 0 0 10px 0"><b>Languages:</b><br> Native: English <br> Studied: French</p>
+    <p style="margin: 0 0 10px 0"><b>Technical:</b><br> InteliJ <br> HTML/CSS <br> Python <br> VSCode <br> Java/JDK </p>
+    <p style="margin: 0 0 10px 0"><b>Hobbies:</b><br> Rock Climbing (Bouldering) <br> Video Games (both designing and playing) <br> Weight Lifting <br> Health and Wellness Enthusiest</p>
+    <br>
+    <h3>Capstone Project</h3>
+    <p style="margin: 0 0 10px 0"><b>Rating Application</b> - for EduSource <br>
+    Our Capstone Project is a Rating application that we are making for a local education company, EduSource.
+    This application will let workers at EduSource rate and comment on apprentice's work, allowing for an easy guide in the right direction.<br>
+    During this project I helped worked with the team on the look and feel of the application, 
+    as well as the updating of user information.
+    </p>
+    <p style="margin: 0"><b>Tech Stack:</b><br></p>
+      <ul >
+        <li><p>
+            <b>Front-End : Vue.js </b><br> 
+            We will be using Vue.js for front-end development as this is the language requested by the client as they are currently using this to write their own programs. 
+            This will allow them to continue developing the app after it is fully turned over to them.
+        </p></li>
+        <li><p>
+            <b>Back-End : Node.js</b><br>
+            We will be using Node.js to develop back-end service for the project as requested by the client as this is their current language they use for back-end development. 
+            This will allow them to implement fixes/changes to the project after it is completed at the end of the year.
+        </p></li>
+        <li><p>
+            <b>Server : Azure</b><br>
+            For hosting the project, the client will be responsibe for hosting it on Azure as it is what they are currently using to host their other applications for themselves and other clients.
+        </p></li>
+        <li><p>
+            <b>Security : Auth0</b><br>
+            We will be using Auth0 integration to allow secure logins for users to access the application. The client already uses the service for other applications on site.
+        </p></li>
+      </ul>
+  </body>
+</html>
